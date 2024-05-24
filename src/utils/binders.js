@@ -1,4 +1,4 @@
-import { element, clearChildren } from '/utils/dom.js';
+import { element, clearChildren } from 'utils/dom.js';
 
 export function bind(tag, attrs, observable, createElement) {
     let parent = element(tag, attrs); 
